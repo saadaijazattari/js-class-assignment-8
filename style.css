@@ -1,0 +1,126 @@
+@font-face {
+    font-family: calibri;
+    src: url("./fonts/calibri.ttf");
+}
+*{
+    font-family: calibri;
+    padding: 0;
+    margin: 0;
+}
+p{
+    line-height: 1.8rem;
+    color: #94a3b8;
+}
+h1{
+    line-height: 3rem;
+    color: white;
+}
+body{
+
+    padding: 20px 24rem;
+    background: #0f172a;
+}
+.part1{
+    background-color: #1e293b;
+    display: flex;
+    padding: 28px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 31px;
+    border-radius: 27px;
+    
+}
+.img{
+    height: 22rem;
+    width: 22rem;
+    background: #94a3b8;
+    border-radius: 17px;
+}
+.name{
+    width: 38%;
+}
+.my_name{
+    font-size: 4rem;
+}
+
+.img_btn {
+    height: 50px;
+    width: 146px;
+    border-radius: 8px;
+    border: none;
+    margin: 3rem 0rem 0rem 4rem;
+    font-size: 1rem;
+    background-color: #e63946; 
+    color: white;           
+    cursor: pointer;          
+}
+
+.y_name{
+    padding: 14px 18px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 33rem;
+    color: black;
+    border: 1px solid #b6b6b6;
+}
+.card{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 58px;
+    border-radius: 39px
+}
+.y_email{
+    padding: 14px 18px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 33rem;
+    color: black;
+    border: 1px solid #b6b6b6;
+}
+.y_message{
+    font-size: 16px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 33rem;
+    color: black;
+    border: 1px solid #b6b6b6;
+}
+.form{
+    padding: 2rem 3rem;
+    background-color: #0b1220;
+    border-radius: 27px;
+    margin-top: 2rem;
+}
+input{
+    margin: 0px 0px 2rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+    background-color: #94a3b8;
+    border-radius: 16px;
+}
+.submit{
+    margin: 4rem 1rem 0rem 15rem;
+    padding: 11px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    background: red;
+    border-radius: 10px;
+}
+.information{
+    padding: 10px;
+}
+.y_message:focus,
+.y_email:focus,
+.y_name:focus {
+    border: 2px solid #e63946;
+}
